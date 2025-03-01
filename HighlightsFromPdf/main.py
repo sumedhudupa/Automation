@@ -19,7 +19,7 @@ def extract_highlights(pdf_path):
     return highlights
 
 # Function to display the extracted highlights
-def save_highlights_to_file(highlights, output_file="Rich Dad Poor Dad - Brief.txt"):
+def save_highlights_to_file(highlights, output_file="extracted highlisghts.txt"):
     if highlights:
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(highlights))
